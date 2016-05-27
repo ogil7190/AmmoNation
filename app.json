@@ -1,0 +1,7 @@
+{
+  "name": "AmmoNation-Test",
+  "description": "A test app for game Ammo Nation",
+  "repository": "https://github.com/ogil7190/AmmoNation",
+  "keywords": ["node", "express", "static"],
+  "extra": "Created by v!vek"
+}
