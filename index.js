@@ -11,6 +11,7 @@ io.on('connection', function(socket){
 	console.log("Player Connected!");
 	socket.emit('socketID', { id: socket.id });
 	socket.emit('getPlayers', players);
+	socket.emit('socketID+getPlayers', { id: socket.id + players });
 	socket.broadcast.emit('newPlayer', { id: socket.id });
 	socket.on('disconnect', function(){
 		console.log("Player Disconnected");
